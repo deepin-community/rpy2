@@ -1,0 +1,26 @@
+Description: Relax cffi version requirement
+ Upstream depends on a cffi version released last week and not yet in Debian.
+ .
+ rpy2 (3.2.1-1) unstable; urgency=medium
+ .
+   * New upstream release
+ .
+   * setup.py: Relacs cffi version requirement to same one used with 3.2.0
+Author: Dirk Eddelbuettel <edd@debian.org>
+
+---
+Last-Update: 2019-10-23
+
+--- rpy2-3.2.1.orig/setup.py
++++ rpy2-3.2.1/setup.py
+@@ -151,8 +151,8 @@ if __name__ == '__main__':
+         author='Laurent Gautier',
+         author_email='lgautier@gmail.com',
+         requires=requires,
+-        install_requires=requires + ['cffi>=1.13.1'],
+-        setup_requires=['cffi>=1.13.1'],
++        install_requires=requires + ['cffi>=1.10.0'],
++        setup_requires=['cffi>=1.10.0'],
+         cffi_modules=cffi_modules,
+         package_dir=pack_dir,
+         packages=([PACKAGE_NAME] +

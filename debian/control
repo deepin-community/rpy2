@@ -1,0 +1,21 @@
+Source: rpy2
+Section: python
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 11), dh-python, r-base-dev (>= 4.1.1), python3-all-dev (>= 3.1.2-10~), python3-setuptools, python3-numpy-dev, python3-cffi, python3-tzlocal
+X-Python3-Version: >= 3.6
+Vcs-Browser: https://salsa.debian.org/edd/rpy2
+Vcs-Git: https://salsa.debian.org/edd/rpy2.git
+Homepage: https://pypi.org/project/rpy2/
+
+Package: python3-rpy2
+Architecture: any
+Depends: ${shlibs:Depends}, ${python3:Depends}, ${misc:Depends}, python3-numpy, r-base-core (>= 3.5.0), python3-jinja2, python3-tzlocal
+Provides: ${python3:Provides}
+Suggests: python-rpy-docs
+Description: Python3 interface to the GNU R language and environment (version 2)
+ This Debian package provides RPy2, a very simple yet robust Python interface
+ to the GNU R Programming Language. It can manage different types of R objects,
+ and can execute arbitrary R functions, including graphic functions.
+ Rpy2 is a rewrite and extension of the older RPy interface.

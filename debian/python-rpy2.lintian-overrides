@@ -1,0 +1,2 @@
+python-rpy2: binary-or-shlib-defines-rpath usr/lib/python2.7/dist-packages/rpy2/rinterface/_rinterface.so /usr/lib/R/lib
+python-rpy2: binary-or-shlib-defines-rpath usr/lib/python2.7/dist-packages/rpy2/rinterface/_rpy_device.so /usr/lib/R/lib

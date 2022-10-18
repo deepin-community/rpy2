@@ -1,0 +1,6 @@
+python3-rpy2: binary-or-shlib-defines-rpath usr/lib/python3/dist-packages/rpy2/rinterface/_rinterface.cpython-35m-x86_64-linux-gnu.so /usr/lib/R/lib
+python3-rpy2: binary-or-shlib-defines-rpath usr/lib/python3/dist-packages/rpy2/rinterface/_rinterface.cpython-36m-x86_64-linux-gnu.so /usr/lib/R/lib
+python3-rpy2: binary-or-shlib-defines-rpath usr/lib/python3/dist-packages/rpy2/rinterface/_rpy_device.cpython-35m-x86_64-linux-gnu.so /usr/lib/R/lib
+python3-rpy2: binary-or-shlib-defines-rpath usr/lib/python3/dist-packages/rpy2/rinterface/_rpy_device.cpython-36m-x86_64-linux-gnu.so /usr/lib/R/lib
+python3-rpy2: binary-or-shlib-defines-rpath usr/lib/python3/dist-packages/rpy2/rinterface/_rinterface.cpython-37m-x86_64-linux-gnu.so /usr/lib/R/lib
+python3-rpy2: binary-or-shlib-defines-rpath usr/lib/python3/dist-packages/rpy2/rinterface/_rpy_device.cpython-37m-x86_64-linux-gnu.so /usr/lib/R/lib
